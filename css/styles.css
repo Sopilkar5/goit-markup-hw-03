@@ -12,12 +12,12 @@ img{
 .page-header{
     width: 1440px;
 height: 72px;
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 .page-header .container{
     display: flex;
-    align-items: center;
-    padding: 24px 0;
+    align-items: center;  
 }
 .blocker{
   display:flex;
