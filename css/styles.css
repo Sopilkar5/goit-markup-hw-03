@@ -31,7 +31,6 @@ height: 72px;
 .blocker .point{
         text-decoration: none;
         font-size: 14px;
-        padding: 24px 0;
 }
 h1, h2, h3, h4, h5, h6, p {
 	margin-top: 0;
@@ -60,7 +59,7 @@ ul{
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
 }
 .page-nav{
     display: flex;
