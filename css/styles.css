@@ -3,7 +3,7 @@
         background: #fff;
 color: #434455;
 }
-.img{
+img{
     display: block;
 }
 .head-page{
@@ -44,13 +44,23 @@ ul{
 	padding-left: 0;
     list-style-type: none;
 }
-.hide{
-    visibility: hidden;
-}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px 0 15px,;
 }
 .page-nav{
     display: flex;
