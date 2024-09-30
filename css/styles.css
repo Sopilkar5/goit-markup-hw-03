@@ -10,10 +10,7 @@ img{
     background: #fff;
 }
 .page-header{
-    width: 1440px;
-height: 72px;
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
 }
 .page-header .container{
     display: flex;
@@ -29,8 +26,9 @@ height: 72px;
     gap: 40px;  
 }
 .blocker .point{
+        display: block;
         text-decoration: none;
-        font-size: 14px;
+        font-size: 16px;
 }
 h1, h2, h3, h4, h5, h6, p {
 	margin-top: 0;
